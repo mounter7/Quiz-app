@@ -1,0 +1,11 @@
+li {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.container {
+    max-width: 700px;
+}
+#quiz {
+    user-select: none;
+}

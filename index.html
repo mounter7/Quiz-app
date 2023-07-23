@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Ravindu Madhushankha-->
+
+<head>
+    <link rel="shortcut icon" href="./favicon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="./assets/js/bootstrap.js" defer></script>
+    <script src="./assets/js/jquery-3.6.1.min.js"></script>
+    <script type="module" src="./assets/js/functions.js" defer></script>
+</head>
+
+<body>
+    <section>
+        <div class="container mt-4 p-4">
+            <center class="mb-5">
+                <h2>Check Your Web Designing Knowledge.</h2>
+                <hr>
+            </center>
+            <div class="row card p-2" id="quiz">
+                <h4 id="q">Question</h4>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" class="answer" id="a">
+                        <label for="a" class="a">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" class="answer" id="b">
+                        <label for="b" class="b">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" class="answer" id="c">
+                        <label for="c" class="c">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" class="answer" id="d">
+                        <label for="d" class="d">Answer</label>
+                    </li>
+                </ul>
+                <button class="btn btn-primary" id="submit">Next</button>
+                <button class="btn btn-dark mt-2" id="go-back">Back</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
